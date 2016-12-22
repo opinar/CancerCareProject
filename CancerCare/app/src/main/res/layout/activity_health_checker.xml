@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_health_checker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:textSize="20sp"
+    tools:context="com.example.asus.cancercare.HealthCheckerActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:layout_alignBottom="@+id/textView23"
+            android:layout_toRightOf="@+id/textView24"
+            android:layout_toEndOf="@+id/textView24" />
+
+        <TextView
+            android:text="Birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24"
+            android:textSize="18sp"
+            android:layout_alignBaseline="@+id/editText17"
+            android:layout_alignBottom="@+id/editText17"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/spinner2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/editText17" />
+
+        <TextView
+            android:text="bloodanalysis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25"
+            android:textSize="18sp"
+            android:layout_above="@+id/editText21"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText18"
+            android:layout_below="@+id/editText17"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="fever"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView26"
+            android:textSize="18sp"
+            android:layout_alignBottom="@+id/editText21"
+            android:layout_alignLeft="@+id/textView27"
+            android:layout_alignStart="@+id/textView27" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText21"
+            android:layout_below="@+id/editText18"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="urine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView27"
+            android:textSize="18sp"
+            android:layout_alignBottom="@+id/editText22"
+            android:layout_alignLeft="@+id/textView28"
+            android:layout_alignStart="@+id/textView28" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText22"
+            android:layout_below="@+id/editText21"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView21"
+            android:textSize="18sp"
+            android:layout_alignBottom="@+id/editText16"
+            android:layout_alignEnd="@+id/textView27" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText16"
+            android:layout_below="@+id/editText22"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:text="Check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button16"
+            android:layout_above="@+id/button7"
+            android:layout_alignEnd="@+id/button7"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@android:color/white"/>/>
+
+        <Button
+            android:text="Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button7"
+            android:layout_above="@+id/button13"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="13dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@android:color/white"/>/>
+
+        <Button
+            android:text="Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button13"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/custom_button"
+            android:textColor="@android:color/white"/>/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

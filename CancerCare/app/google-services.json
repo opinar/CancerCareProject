@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "985363387694",
+    "firebase_url": "https://cancercare-143d5.firebaseio.com",
+    "project_id": "cancercare-143d5",
+    "storage_bucket": "cancercare-143d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985363387694:android:030f16f23c9e54bf",
+        "android_client_info": {
+          "package_name": "com.example.asus.cancercare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985363387694-6h0ajemou3vo6t1n9c18m1abth81f5ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZnTa8P5XHYumnzyTI7a-D3_20HegeKQM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

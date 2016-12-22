@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_appointments"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.asus.cancercare.AddAppointmentsActivity">
+   
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp">
+
+        <TextView
+            android:text=" Patient Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView15"
+            android:id="@+id/spinner5" />
+
+        <TextView
+            android:text=" Hospital Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView19"
+            android:textSize="18sp"
+            android:layout_below="@+id/textView15"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="22dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner6"
+            android:layout_toEndOf="@+id/textView19"
+            />
+
+        <TextView
+            android:text="Doctor Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView20"
+            android:textSize="18sp"
+            android:layout_below="@+id/spinner6"
+            android:layout_alignRight="@+id/textView15"
+            android:layout_alignEnd="@+id/textView15" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner7"
+            android:layout_alignBottom="@+id/textView20"
+            android:layout_toRightOf="@+id/textView19"
+            android:layout_toEndOf="@+id/textView19"
+            />
+
+        <Button
+            android:text="SAVE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button9"
+            android:layout_above="@+id/button10"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@android:color/white"/>
+           />
+
+        <Button
+            android:text="TAKE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/spinner7"
+            android:layout_toStartOf="@+id/spinner7"
+            android:id="@+id/button14"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@android:color/white"/>/>
+
+        <Button
+            android:text="CANCEL"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button10"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="11dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@android:color/white"/>/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
